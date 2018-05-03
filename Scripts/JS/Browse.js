@@ -6,7 +6,7 @@ window.onload = function() {
       break;  
     }
     let browserCard = document.createElement("div");
-    browserCard.class = "product-card";
+    browserCard.setAttribute("class", "product-card");
     
     browserCard.innerHTML = "<div class='product-card-header'>" + CatalogDatabase["Items"][i]["name"] + "</div>" +
       "<div class='product-card-image'><div><p>" + CatalogDatabase["Items"][i]["price"]; + "</p></div><img src=" + CatalogDatabase["Items"][i]["image"] + " alt=''>" +
