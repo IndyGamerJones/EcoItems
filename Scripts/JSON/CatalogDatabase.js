@@ -3,19 +3,19 @@ var CatalogDatabase = {
     {
       "name": "Placeholder",
       "description": "Placeholder desc",
-      "imgName":  "Unavailible.png",
+      "imgName":  "Unavailable.png",
       "price": 10,
       "tags": [
-        "Unavailible", "Placeholder"
+        "Missing-Picture","Unavailable", "Placeholder"
       ]
     },
     {
       "name": "Recycled Waterbottle",
       "description": "It is a water bottle that is recycled, what else is there to know?",
-      "imgName":  "Unavailible.png",
+      "imgName":  "Unavailable.png",
       "price": 15,
       "tags": [
-        "Waterbottle", "Recycled"
+        "Missing-Picture", "Waterbottle", "Recycled"
       ]
     }
   ]
