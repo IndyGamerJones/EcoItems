@@ -12,7 +12,7 @@ window.onload = function() {
       "<div class='product-card-image'><div><p>" + CatalogDatabase["Items"][i]["price"]; + "</p></div><img src=" + CatalogDatabase["Items"][i]["image"] + " alt=''>" +
       "<div class='product-card-desc'>" + CatalogDatabase["Items"][i]["description"] + "</div>";
     
-    cardContainer.appendElement(browserCard);
+    cardContainer.appendChild(browserCard);
     
     i++;
   }
