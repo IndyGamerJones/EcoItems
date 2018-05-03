@@ -3,6 +3,7 @@ window.onload = function() {
   let cardContainer = document.getElementById("product-card-container");
   while (true) {
     if (CatalogDatabase["Items"][i]["name"] == undefined) {
+      console.log("HOI");
       break;  
     }
     let browserCard = document.createElement("div");
