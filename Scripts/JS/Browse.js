@@ -1,4 +1,4 @@
-document.onload = function(e) {
+window.onload = function() {
   let i = 0;
   let cardContainer = document.getElementById("product-card-container");
   while (true) {
