@@ -2,8 +2,7 @@ window.onload = function() {
   let i = 0;
   let cardContainer = document.getElementById("product-card-container");
   while (true) {
-    console.log(i);
-    if (CatalogDatabase["Items"][i]["name"] == undefined) {
+    if (CatalogDatabase["Items"].length == i) {
       break;  
     }
     let browserCard = document.createElement("div");
