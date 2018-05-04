@@ -27,4 +27,5 @@ var CatalogDatabase = {
         "Flag", "Finland"
       ]
     }
+  ]
 };
