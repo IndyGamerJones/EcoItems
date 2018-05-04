@@ -11,7 +11,7 @@ body {
      margin-left: 4vw;
      margin-bottom: 4vw;
      height: 20vw;
-     background-color: #9bc03c;
+     background-color: #98b74b;
 }
  .product-card-header {
      padding: 0;
@@ -61,7 +61,7 @@ body {
      width: 20vw;
      position: absolute;
      font-size: 0.85vw;
-     color: #4B6319;
+     color: #98b74b;
      text-align: center;
 }
  #title {
