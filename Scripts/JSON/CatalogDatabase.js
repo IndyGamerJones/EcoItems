@@ -17,6 +17,14 @@ var CatalogDatabase = {
       "tags": [
         "Missing-Picture", "Waterbottle", "Recycled"
       ]
-    }
+    },
+    {
+      "name":  "Finnish Flag",
+      "description":  "A flag of Finland",
+      "imgName":  "Unavailable.png",
+      "price": 1234,
+      "tags": [
+        "Flag", "Finland"
+      ]
   ]
 };
