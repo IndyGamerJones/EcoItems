@@ -26,5 +26,5 @@ var CatalogDatabase = {
       "tags": [
         "Flag", "Finland"
       ]
-  ]
+    }
 };
