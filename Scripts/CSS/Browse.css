@@ -9,9 +9,9 @@
      height: 20vw;
 }
  .product-card-header {
-     padding: 0;
+     padding-top: 1vw;;
      width: 100%;
-     height: 20%;
+     height: 15%;
      text-align: center;
      font-size: 1.75vw;
      background-color: white;
@@ -52,10 +52,11 @@
      height: 100%;
 }
  .product-card-desc {
-     height: 4vw;
-     width: 20vw;
+     height: 2vw;
+     width: 18vw;
+     padding: 1vw;
      position: absolute;
-     font-size: 0.85vw;
+     font-size: 1vw;
      color: #98b74b;
      background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(140,153,109,1) 100%);
      text-align: center;
