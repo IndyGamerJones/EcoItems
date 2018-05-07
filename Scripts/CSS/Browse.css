@@ -7,7 +7,6 @@
      margin-left: 4vw;
      margin-bottom: 4vw;
      height: 20vw;
-     background-color: #98b74b;
 }
  .product-card-header {
      padding: 0;
@@ -58,5 +57,6 @@
      position: absolute;
      font-size: 0.85vw;
      color: #98b74b;
+     background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(140,153,109,1) 100%);
      text-align: center;
 }
