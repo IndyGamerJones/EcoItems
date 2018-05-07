@@ -1,4 +1,18 @@
 body {
   background: rgb(169,186,126);
   background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(120,133,89,1) 100%);
+  padding: 0;
+  margin: 0;
 }
+
+ #title {
+     background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(140,153,109,1) 100%);
+     padding-left: 5vw;
+     padding-top: 3vw;
+     padding-bottom: 3vw;
+     color: white;
+     -webkit-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+     -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+     box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+}
+
