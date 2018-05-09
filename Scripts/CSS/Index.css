@@ -19,15 +19,15 @@ body {
 .blerb {
   text-align: center;
   margin-left: 12.5vw;
-  font-size: 0.75vw;
+  font-size: 1.25vw;
   width: 75vw;
 }
 
 .header {
-  font-size: 1.2vw;
+  font-size: 2vw;
   text-align: center;
 }
 .sub-header {
-  font-size: 1vw;
+  font-size: 1.75vw;
   text-align: center;
 }
