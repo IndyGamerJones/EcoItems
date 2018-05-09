@@ -31,3 +31,12 @@ body {
   font-size: 1.75vw;
   text-align: center;
 }
+.align_table {
+  font-weight: normal;
+  padding: 0;
+  margin: auto;
+  display: block;
+}
+.align_table > tr > th {
+  font-weight: normal;  
+}
