@@ -16,3 +16,18 @@ body {
      box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
 }
 
+.blerb {
+  text-align: center;
+  margin-left: 12.5vw;
+  font-size: 0.75vw;
+  width: 75vw;
+}
+
+.header {
+  font-size: 1.2vw;
+  text-align: center;
+}
+.sub-header {
+  font-size: 1vw;
+  text-align: center;
+}
