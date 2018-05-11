@@ -5,13 +5,16 @@ body {
   margin: 0;
 }
 .navbar {
-     padding-left: 0;
-     background-color: #262625;
-     border-top:  0.5vw #a6ff47;
-     color: white;
-     -webkit-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
-     -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
-     box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);  
+   padding-left: 0;
+   background-color: #262625;
+   border-top:  0.5vw #a6ff47;
+   color: white;
+   -webkit-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+   -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+   box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);  
+}
+.navbar ul {
+  list-style-type: none;  
 }
 .navbar ul li {
   display: inline-block;
