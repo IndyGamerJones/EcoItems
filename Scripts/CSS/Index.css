@@ -27,6 +27,10 @@ body {
   padding-right: 1.5vw;
   padding-bottom: 1vw;
   padding-top: 1vw;
+  transition: 0.5s;
+}
+.navbar ul li:hover {
+  background-color: rgba(120,133,89,1);
 }
 .navbar ul:first-child {
   border-left: solid rgba(120,133,89,1);
