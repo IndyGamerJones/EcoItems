@@ -16,10 +16,9 @@ body {
 }
 .navbar ul button {
   border: none;
+  outline: none;
+  color: inherit;
   background-color: rgba(0,0,0,0);
-}
-.navbar ul button:focus {
-  border: none;  
 }
 .navbar ul button li div {
   opacity:  0;
@@ -40,9 +39,6 @@ body {
 .navbar ul {
   margin: 0;
   padding-left: 0; 
-}
-.navbar ul li:hover > div {
-  opacity: 1 !important;  
 }
 .navbar ul li {
   list-style-type: none; 
