@@ -18,6 +18,9 @@ body {
   margin: 0;
   padding-left: 0; 
 }
+.navbar ul li:hover > div {
+  opacity: 1 !important;  
+}
 .navbar ul li {
   list-style-type: none; 
   display: inline-block;
