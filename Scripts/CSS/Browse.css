@@ -24,7 +24,7 @@
 }
  .product-card-image > div {
      transition: 0.5s;
-     z-index: 10;
+     z-index: 1;
      position: absolute;
      width: 20vw;
      height: 12vw;
