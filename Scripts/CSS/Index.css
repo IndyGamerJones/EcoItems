@@ -4,8 +4,7 @@ body {
   padding: 0;
   margin: 0;
 }
-
- #title {
+.navbar {
      background-color: #262625;
      border-top:  1vw #a6ff47;
      padding-left: 25vw;
@@ -14,9 +13,8 @@ body {
      color: white;
      -webkit-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
      -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
-     box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
+     box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);  
 }
-
 .blerb {
   text-align: center;
   margin-left: 12.5vw;
