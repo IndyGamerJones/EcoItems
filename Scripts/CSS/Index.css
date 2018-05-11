@@ -5,6 +5,7 @@ body {
   margin: 0;
 }
 .navbar {
+   width: 100vw;
    opacity: 0.98;
    position: fixed;
    background-color: #262625;
