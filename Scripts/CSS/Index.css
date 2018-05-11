@@ -6,7 +6,8 @@ body {
 }
 
  #title {
-     background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(140,153,109,1) 100%);
+     background-color: #262625;
+     border-top:  1vw #a6ff47;
      padding-left: 25vw;
      padding-top: 3vw;
      padding-bottom: 3vw;
