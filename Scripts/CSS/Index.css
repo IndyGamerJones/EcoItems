@@ -21,7 +21,7 @@ body {
 .navbar ul button:focus {
   border: none;  
 }
-.navbar ul button {
+.navbar ul button li div {
   opacity:  0;
   width: 10vw;
   height:10vw;
