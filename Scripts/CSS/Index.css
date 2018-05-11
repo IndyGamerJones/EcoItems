@@ -7,9 +7,6 @@ body {
 .navbar {
      background-color: #262625;
      border-top:  1vw #a6ff47;
-     padding-left: 25vw;
-     padding-top: 3vw;
-     padding-bottom: 3vw;
      color: white;
      -webkit-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
      -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
@@ -18,6 +15,7 @@ body {
 .navbar ul li {
   display: inline-block;
   padding-left: 1.5vw;
+  margin: 0;
   border-right: solid rgba(120,133,89,1);
   padding-right: 1.5vw;
   padding-bottom: 1vw;
