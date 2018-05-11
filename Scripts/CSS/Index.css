@@ -15,6 +15,15 @@ body {
      -moz-box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);
      box-shadow: -12px 10px 28px -5px rgba(0,0,0,0.56);  
 }
+.navbar ul li {
+  display: inline-block;
+  padding-left: 1.5vw;
+  border-right: solid rgba(120,133,89,1);
+  padding-right: 1.5vw;
+  padding-bottom: 1vw;
+  padding-top: 1vw;
+  border-left: solid rgba(120,133,89,1);  
+}
 .blerb {
   text-align: center;
   margin-left: 12.5vw;
