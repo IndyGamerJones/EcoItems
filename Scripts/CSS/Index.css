@@ -34,11 +34,11 @@ body {
   transition: 0.5s;
   transform: translate(0,-20px);
 }
-.navbar ul button:focus div {
+.navbar ul button:focus ~ div {
   opacity: 1;
   transform: translate(0,0);
 }
-.navbar ul li:hover {
+.navbar ul li:hover{
   background-color: rgb(169,186,126);  
 }
 .navbar ul button:focus li {
