@@ -21,10 +21,26 @@ body {
   color: inherit;
   background-color: rgba(0,0,0,0);
 }
+.navbar ul div input {
+  background-size: contain;
+  padding-left: 25%;
+  display: block;
+  margin: auto;
+  width: 90%;
+  display: block; 
+  margin: auto;
+  height: 75%; 
+  margin-top: 2.5%;
+  border: none;
+  outline: none;
+  border-radius:5px;
+  background-repeat: no-repeat;
+  background-image: url('../Images/Search%20Icon.png'); 
+}
 .navbar ul div{
   opacity:  0;
-  width: 10vw;
-  height:10vw;
+  width: 20vw;
+  height:5vw;
   margin-left: 10vw;
   margin-top: 1.6vw;
   position:fixed;
