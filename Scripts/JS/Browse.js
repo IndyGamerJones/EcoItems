@@ -25,6 +25,6 @@ void LoadProduct(index) {
   let panel = document.getElementById("product-panel");
   panel.setAttribute("on","true");
 
-  panel.innerHTML = "<table class='align_table' style='width: 85%;'><tr><td><img style='width:42.5%;height: auto;' src='" + CatalogDatabase.Items[index].imgName + "'></td><td>" +
+  panel.innerHTML = "<table class='align_table' style='width: 85%;'><tr><td><img style='width:42.5%;height: auto;' src='../Images/Items/" + CatalogDatabase.Items[index].imgName + "'></td><td>" +
     CatalogDatabase.Items[index].name + "<br><br>" + CatalogDatabase.Items[index].description;
 }
