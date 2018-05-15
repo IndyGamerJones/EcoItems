@@ -3,7 +3,7 @@ window.onload = function() {
   let cardContainer = document.getElementById("product-card-container");
   while (true) {
     if (CatalogDatabase["Items"].length == i) {
-      break;  
+      break;
     }
     let browserCard = document.createElement("div");
     browserCard.setAttribute("class", "product-card");
@@ -16,4 +16,15 @@ window.onload = function() {
     
     i++;
   }
+}
+void LoadProduct(index) {
+  if (index > CatalogDatabase["Items"].length) {
+    console.log("Error!  Item Index out of Bounds!");
+    return;
+  }
+  let panel = document.getElementById("product-panel");
+  panel.setAttribute("on","true");
+
+  panel.innerHTML = "<table class='align_table' style='width: 85%;'><tr><td><img style='width:42.5%;height: auto;' src='" + CatalogDatabase.Items[index].imgName + "'></td><td>" +
+    CatalogDatabase.Items[index].name + "<br><br>" + CatalogDatabase.Items[index].description;
 }
