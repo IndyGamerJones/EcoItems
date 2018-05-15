@@ -35,7 +35,7 @@ body {
   outline: none;
   border-radius:5px;
   background-repeat: no-repeat;
-  background-image: url('../Images/Search%20Icon.png'); 
+  background-image: url('../../Images/Search%20Icon.png'); 
 }
 .navbar ul div{
   opacity:  0;
@@ -48,10 +48,14 @@ body {
   background-color: rgb(84, 84, 84);  
 }
 .navbar ul div {
-  transition: 0.5s;
-  transform: translate(0,-20px);
+  transition: 0.75s;
+  transform: translate(0,-200px);
 }
 .navbar ul button:focus ~ div {
+  opacity: 1;
+  transform: translate(0,0);
+}
+.navbar ul div:hover {
   opacity: 1;
   transform: translate(0,0);
 }
