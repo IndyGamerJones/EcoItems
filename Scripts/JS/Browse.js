@@ -16,8 +16,7 @@ window.onload = function() {
     
     i++;
   }
-}
-void LoadProduct(index) {
+function LoadProduct(index) {
   if (index > CatalogDatabase["Items"].length) {
     console.log("Error!  Item Index out of Bounds!");
     return;
