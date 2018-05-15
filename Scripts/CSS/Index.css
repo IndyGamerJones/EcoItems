@@ -8,7 +8,7 @@ body {
   z-index: 2;
   opacity: 0.98;
   position: fixed;
-  background-color: #262625;
+  background-color: rgb(179, 206, 108);
   color: white;
 }
 .content {
@@ -26,10 +26,10 @@ body {
   width: 10vw;
   height:10vw;
   margin-left: 10vw;
-  margin-top: 2vw;
+  margin-top: 1.6vw;
   position:fixed;
   border-radius: 5px;
-  background-color: #262625;  
+  background-color: rgb(179, 206, 108);  
 }
 .navbar ul div {
   transition: 0.5s;
