@@ -10,13 +10,13 @@
      font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
  .product-card-header {
-     padding-top: 1vw;;
+     padding-top: 1vw;
      width: 100%;
      height: 15%;
      text-align: center;
      font-size: 1.75vw;
-     background-color: white;
-     color: black;
+     background-color: rgb(167, 189, 109);
+     color: white;
 }
  .product-card-image {
      width: 100%;
@@ -58,7 +58,7 @@
      padding: 1vw;
      position: absolute;
      font-size: 1vw;
-     color: #3A4D13;
-     background: radial-gradient(circle, rgba(169,186,126,1) 0%, rgba(140,153,109,1) 100%);
+     color: white;
+     background-color: rgb(84, 84, 84);
      text-align: center;
 }
