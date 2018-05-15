@@ -29,7 +29,7 @@ body {
   margin-top: 1.6vw;
   position:fixed;
   border-radius: 5px;
-  background-color: rgb(179, 206, 108);  
+  background-color: rgb(84, 84, 84);  
 }
 .navbar ul div {
   transition: 0.5s;
