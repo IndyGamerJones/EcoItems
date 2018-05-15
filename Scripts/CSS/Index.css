@@ -4,11 +4,13 @@ body {
   margin: 0;
 }
 #product-panel {
+  z-index: 5;
+  margin-top: 15vh;
   opacity: 0;  
   transition: 1s;
   transform: translate(0px, -20px);
   width: 95vw;
-  height: 95vh;
+  height: 80vh;
   display: block;
   margin: auto;
   position: fixed;
