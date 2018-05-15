@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(169,186,126);
+  background-color: rgb(167, 189, 109);
   padding: 0;
   margin: 0;
 }
@@ -40,7 +40,7 @@ body {
   transform: translate(0,0);
 }
 .navbar ul li:hover{
-  background-color: rgb(169,186,126);  
+  background-color: rgb(167, 189, 109);  
 }
 .navbar ul button:focus li {
   color: rgb(169,186,126);
@@ -57,14 +57,14 @@ body {
   padding-left: 1.5vw;
   margin: 0;
   font-family: fantasy;
-  border-right: solid rgba(169,186,126,1);
+  border-right: solid rgb(167, 189, 109);
   padding-right: 1.5vw;
   padding-bottom: 1vw;
   padding-top: 1vw;
   transition: 0.5s;
 }
 .navbar ul:first-child {
-  border-left: solid rgba(169,186,126,1);
+  border-left: solid rgb(167, 189, 109);
 }
 .blerb {
   text-align: center;
