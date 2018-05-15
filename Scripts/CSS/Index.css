@@ -5,8 +5,10 @@ body {
 }
 #product-panel {
   z-index: 5;
-  margin-top: 15vh;
+  top: 15vh;
+  left: 2.5vw;
   opacity: 0;  
+  background-color: white;
   transition: 1s;
   transform: translate(0px, -20px);
   width: 95vw;
