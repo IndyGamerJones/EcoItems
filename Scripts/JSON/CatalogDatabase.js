@@ -10,7 +10,7 @@
         "Missing-Picture","Unavailable", "Placeholder"
       ],
       "Rating": {
-        "
+        "ao": "OI"
       }
     },
     {
