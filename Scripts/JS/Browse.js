@@ -26,6 +26,10 @@ function LoadProduct(index) {
   let panel = document.getElementById("product-panel");
   panel.setAttribute("on","true");
 
-  panel.innerHTML = "<table class='align_table' style='width: 85%;'><tr><td><img style='width:42.5%;height: auto;' src='../Images/Items/" + CatalogDatabase.Items[index].imgName + "'></td><td>" +
-    CatalogDatabase.Items[index].name + "<br><br>" + CatalogDatabase.Items[index].description;
+  panel.innerHTML = "<table class='align_table' style='width: 84%;'><tr><td><img style='width:28%;height: auto;float:left;' src='../Images/Items/" + CatalogDatabase.Items[index].imgName + "'></td><td style='width: 28%;'>" +
+    CatalogDatabase.Items[index].name + "<br><br>" + CatalogDatabase.Items[index].description + "</td><td style='width:28%; float: right;'><p style='float:right;font-size:2vw;'>X<p></td></tr></table>";
+}
+function UnloadProduct() {
+  let panel = document.getElementById("product-panel");
+  panel.setAttribute("on","false");
 }
