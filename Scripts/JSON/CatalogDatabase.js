@@ -64,7 +64,7 @@ var CatalogDatabase = {
       "name": "Recycled Finnish Flag",
       "description": "A Finnish Flag made from plastic fabric",
       "panelDescription":  "This is a larger description",
-      "imgName":  "Finnishflag.png
+      "imgName":  "Finnishflag.png",
       "price": 50,
       "tags": [
         "Missing-Picture", "Unavailable", "Placeholder"
