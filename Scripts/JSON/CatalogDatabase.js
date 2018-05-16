@@ -1,4 +1,4 @@
-{
+CatalogDatabase = {
   "Items": [
     {
       "name": "Edible Water Bottle",
