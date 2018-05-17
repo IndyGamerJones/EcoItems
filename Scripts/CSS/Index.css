@@ -5,7 +5,7 @@ body {
 }
 .divider {
     margin: auto;
-    background-image: url(../Images/Border.png);
+    background-image: url(../../Images/Border.png);
     width: 75vw;
     height: 1vw;
     background-size: 75vw 5vw;
