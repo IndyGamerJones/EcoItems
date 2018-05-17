@@ -3,6 +3,15 @@ body {
   padding: 0;
   margin: 0;
 }
+.border-line {
+    margin: auto;
+    background-image: url(../Images/Border.png);
+    width: 75vw;
+    height: 1vw;
+    background-size: 75vw 5vw;
+    background-position: center;
+    margin-bottom: 0;  
+}
 #product-panel {
   border-radius: 15px;
   padding: 1vw;
