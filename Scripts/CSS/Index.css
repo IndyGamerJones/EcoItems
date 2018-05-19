@@ -17,8 +17,6 @@ body {
   padding: 1vw;
   padding-top: 10vh;
   z-index: -1;
-  top: 15vh;
-  left: 2.5vw;
   opacity: 0;  
   background-color: #738ECC;
   transition: 1s;
@@ -31,12 +29,12 @@ body {
 }
 #product-panel[on=true] {
   opacity: 1;
-  z-index: 5;
+  z-index: 2;
   transform: translate(0,0);
 }
 .navbar {
   width: 100vw;
-  z-index: 2;
+  z-index: 3;
   opacity: 0.98;
   position: fixed;
   background-color: #48597F;
