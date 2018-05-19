@@ -114,7 +114,7 @@ body {
   transition: 0.5s;
 }
 .navbar ul:first-child {
-  border-left: solid #90B2FF;
+  border-left: solid #90B2FF; 
 }
 .blerb {
   text-align: center;
