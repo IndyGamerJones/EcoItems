@@ -38,7 +38,7 @@ body {
   z-index: 2;
   opacity: 0.98;
   position: fixed;
-  background-color: rgb(179, 206, 108);
+  background-color: #48597F;
   color: white;
 }
 .content {
@@ -75,7 +75,7 @@ body {
   margin-top: 1.6vw;
   position:fixed;
   border-radius: 5px;
-  background-color: rgb(84, 84, 84);  
+  background-color: #48597F;  
 }
 .navbar ul div {
   transition: 0.75s;
@@ -90,7 +90,7 @@ body {
   transform: translate(0,0);
 }
 .navbar ul li:hover{
-  background-color: rgb(167, 189, 109);  
+  background-color: #90B2FF;  
 }
 .navbar ul button:focus li {
   color: rgb(169,186,126);
@@ -107,14 +107,14 @@ body {
   padding-left: 1.5vw;
   margin: 0;
   font-family: fantasy;
-  border-right: solid rgb(167, 189, 109);
+  border-right: solid #90B2FF;
   padding-right: 1.5vw;
   padding-bottom: 1vw;
   padding-top: 1vw;
   transition: 0.5s;
 }
 .navbar ul:first-child {
-  border-left: solid rgb(167, 189, 109);
+  border-left: solid #90B2FF;
 }
 .blerb {
   text-align: center;
