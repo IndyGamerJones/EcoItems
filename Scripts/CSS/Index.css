@@ -15,15 +15,16 @@ body {
 #product-panel {
   border-radius: 15px;
   padding: 1vw;
+  padding-top: 10vh;
   z-index: -1;
   top: 15vh;
   left: 2.5vw;
   opacity: 0;  
-  background-color: white;
+  background-color: #738ECC;
   transition: 1s;
   transform: translate(0px, -20px);
-  width: 95vw;
-  height: 80vh;
+  width: 100vw;
+  min-height: 100vh;
   display: block;
   margin: auto;
   position: fixed;
